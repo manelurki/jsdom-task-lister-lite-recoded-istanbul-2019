@@ -3,4 +3,5 @@ document.addEventListener("DOMContentLoaded", () => {
      const a = document.getElementById("new-task-description");
      const b = document.getElementById("tasks");
     
-  }}
+  });
+});
