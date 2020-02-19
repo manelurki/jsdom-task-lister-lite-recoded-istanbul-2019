@@ -7,3 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
   });
 });
+function deleteme(){
+  let c=document.querySelectorAll('li')
+  if(c.length>0){
+    c[c.length-1].remove();
+  }
+}
